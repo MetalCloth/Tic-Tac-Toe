@@ -42,8 +42,9 @@ buttons.forEach((box)=>{
         }
         turn=!turn;
         box.disabled=true;
-        checkwinner();
         checkdraw();
+        checkwinner();
+
     });
     
 
